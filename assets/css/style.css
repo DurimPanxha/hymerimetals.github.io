@@ -476,6 +476,16 @@ h6 {
   right: 0;
 }
 
+.grow-on-hover {
+  transition: transform 0.3s ease;
+}
+
+.grow-on-hover:hover {
+  transform: scale(1.1);  /* This will scale the SVG to 110% of its original size */
+}
+
+
+
 #hero .container {
   position: relative;
 }
